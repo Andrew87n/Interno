@@ -89,6 +89,11 @@ background-color: var(--title-color);
 
 .viewmore-list{
     display: flex;
+    justify-content: space-between;
+}
+
+.viewmore-item{
+padding: 75px 41px 70px 42px;
 }
 
 .viewmore-title{
@@ -110,6 +115,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.22px;
+width: 296px;
 }
 
 .viewmore-link{
@@ -123,5 +129,134 @@ letter-spacing: 0.36px;
 padding-top: 20px;
 padding-left: 98px;
 padding-right: 98px;
+}
+
+.tackle-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tackle-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3; /* 130% */
+letter-spacing: 0.22px;
+width: 450px;
+margin-bottom: 42px;
+}
+
+.tackle-text{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+width: 531px;
+margin-bottom: 29.8px;
+}
+
+.callus-number{
+    color: var(--text-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.callus-text{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.tackle-button{
+    color: var(--background-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.72px;
+    border-radius: 18px;
+border: 2px solid var(--title-color);
+background: var(--title-color);
+padding-top: 21px;
+padding-bottom: 23px;
+padding-left: 34px;
+padding-right: 67px;
+margin-top: 10.2px;
+}
+
+.people{
+padding-top: 139px;
+}
+
+.people-box{
+    background-color: var(--button-background-color);
+    border-radius: 70px;
+    padding-top: 103px;
+    padding-bottom: 121px;
+}
+
+.people-logo{
+    color: var(--title-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3; /* 130% */
+letter-spacing: 0.22px;
+width: 479px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 46px;
+}
+
+.people-list{
+    display: flex;
+    gap: 16px;
+}
+
+.people-item{
+    padding: 50px 79px 45px 35px;
+    background-color: var(--background-color);
+    border-radius: 30px;
+}
+
+.people-title{
+    margin-top: 25px;
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.people-city{
+    color: var(--text-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.people-text{
+    color: var(--text-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
 }
 
