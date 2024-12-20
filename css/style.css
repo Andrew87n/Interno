@@ -400,11 +400,13 @@ letter-spacing: 0.22px;
 
 .recent-list{
 display: flex;
+flex-wrap: wrap;
 }
 
 .recent-item{
     border-radius: 62px;
     border: 1px solid #E7E7E7;
+    width: 387px;
 }
 
 .recent-name{
@@ -414,16 +416,77 @@ display: flex;
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+background: var(--background-color);
 }
 
 .recent-bio{
-
+    color: var(--title-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4; /* 140% */
+    letter-spacing: 0.5px;
 }
 
 .recent-date{
-
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.22px;
 }
 
 .recent-button{
+    border-radius: 100px;
+    background: var(--button-background-color);
+    width: 52px;
+height: 52px;
+}
 
+.join{
+    border-radius: 70px;
+    background: var(--title-color);
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+
+.join-title{
+    color: var(--background-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.join-text{
+    color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+margin-bottom: 31px;
+}
+
+.join-button{
+    color: var(--background-color);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.22px;    
+    padding-top: 21px;
+    padding-bottom: 23px;
+    padding-right: 67px;
+    padding-left: 37px;
+    background-color: var(--active-color);
+    border-radius: 18px;
 }
