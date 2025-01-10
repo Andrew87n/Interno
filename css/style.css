@@ -324,6 +324,39 @@ letter-spacing: 0.22px;
     align-items: center;
 }
 
+.brands-svg{
+    width: 132px;
+height: 43px;
+}
+
+.brands-item:nth-child(2){
+    .brands-svg{
+        width: 103px;
+        height: 103px;
+    }
+}
+
+.brands-item:nth-child(3){
+    .brands-svg{
+        width: 164px;
+height: 43px;
+    }
+}
+
+.brands-item:nth-child(4){
+    .brands-svg{
+        width: 145px;
+height: 45px;
+    }
+}
+
+.brands-item:nth-child(5){
+    .brands-svg{
+        width: 117px;
+height: 48px;
+    }
+}
+
 .recentprojects-title{
 color: var(--title-color);
 text-align: center;
