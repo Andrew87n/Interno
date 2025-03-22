@@ -8,13 +8,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <div class="container header-box">
-        <img src="./images/internologo.png" alt="Interno logo" class="header-logo">
+        <img src="./images/internologo.png" alt="Interno logo" class="header-logo" data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
         <nav class="header-nav">
         <ul class="header-list">
         <li class="header-item"><a href="" class="header-link">Home</a></li>
@@ -37,17 +45,25 @@
 <section class="viewmore">
     <div class="container">
     <ul class="viewmore-list">
-        <li class="viewmore-item">
+        <li class="viewmore-item" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="viewmore-title">Interior Design</h2>
             <p class="viewmore-text">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
             <p class="viewmore-link">View More</p>
         </li>
-        <li class="viewmore-item">
+        <li class="viewmore-item" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="viewmore-title">Furniture</h2>
             <p class="viewmore-text">Movable articles that are used to make a room or building suitable for living or working.</p>
             <p class="viewmore-link">View More</p>
         </li>
-        <li class="viewmore-item">
+        <li class="viewmore-item" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="viewmore-title">Flooring</h2>
             <p class="viewmore-text">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
             <p class="viewmore-link">View More</p>
@@ -58,11 +74,15 @@
 <section class="tackle">
     <div class="container tackle-box">
         <div>
-    <h2 class="tackle-title">We Tackle The Most Challenging Designs</h2>
-        <p class="tackle-text">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.</p>
-        <a href="tel:83+012345678" class="callus-number">012345678</a>
-        <p class="callus-text">Call Us Anytime</p>
-<button type="button" class="tackle-button">Get Free Estimate</button>
+    <h2 class="tackle-title" data-aos="flip-left">We Tackle The Most Challenging Designs</h2>
+        <p class="tackle-text" data-aos="flip-left">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.</p>
+        <a href="tel:83+012345678" class="callus-number data-aos="zoom-in-up">012345678</a>
+        <p class="callus-text" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">Call Us Anytime</p>
+<button type="button" class="tackle-button" data-aos="flip-left"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">Get Free Estimate</button>
 </div>
 <img src="./images/kitchen.webp" alt="clean kitchen" class="tackle-image">
 </div>
@@ -71,17 +91,17 @@
     <div class="container people-box">
     <h2 class="people-logo">What the People Thinks About Interno</h2>
     <ul class="people-list">
-        <li class="people-item">
+        <li class="people-item" data-aos="zoom-in-right">
             <h3 class="people-title">Lisa Clairton</h3>
             <p class="people-city">New York, USA</p>
             <p class="people-text">We selected Interno interior because of rigorous design background & education.</p>
         </li>
-        <li class="people-item">
+        <li class="people-item" data-aos="zoom-in-right">
             <h3 class="people-title">David Knight</h3>
             <p class="people-city">Sydney, Australia</p>
             <p class="people-text">The team exceeded our expectations and emerged as leaders of our project’s.</p>
         </li>
-        <li class="people-item">
+        <li class="people-item" data-aos="zoom-in-right">
             <h3 class="people-title">Lisa Clairton</h3>
             <p class="people-city">Paris, France</p>
             <p class="people-text">They balanced the architectural vision and the project realities beautifully.</p>
@@ -91,7 +111,7 @@
 </section>
 <section class="brands">
     <div class="container">
-    <ul class="brands-list">
+    <ul class="brands-list" data-aos="fade-right">
         <li class="brands-item"><a href=""><svg class="brands-svg">
             <use href="./images/symbol-defs.svg#icon-modern-home"></use>
         </svg></a></li>
@@ -115,7 +135,7 @@
     <h2 class="recentprojects-title">Recent Projects</h2>
     <p class="recentprojects-text">With tools to make every part of your process more human and a support team excited to help you, getting started with us never been easier.</p>
     <ul class="recentprojects-list">
-        <li class="recentprojects-item">
+        <li class="recentprojects-item" data-aos="fade-down-right">
         <img src="./images/winerydrycreekbuilding.webp" alt="winery dry creek building" class="recentprojects-image">
         <div class="recentprojects-tab">
         <p class="recentprojects-name">Winery Dry Creek Building</p>
@@ -123,7 +143,7 @@
         </div>
         <button type="button" class="recentprojects-button">&#10095;</button>
         </li>
-        <li class="recentprojects-item">
+        <li class="recentprojects-item" data-aos="fade-down-right">
         <img src="./images/creativeworkplacedesign.webp" alt="creative workplace design" class="recentprojects-image">
         <div class="recentprojects-tab">
         <p class="recentprojects-name">Creative Workplace Design</p>
@@ -131,7 +151,7 @@
         </div>
         <button type="button" class="recentprojects-button">&#10095;</button>
         </li>
-        <li class="recentprojects-item">
+        <li class="recentprojects-item" data-aos="fade-down-right">
         <img src="./images/bedroominteriorpotwork.webp" alt="bedroom interior pot work" class="recentprojects-image">
         <div class="recentprojects-tab">
         <p class="recentprojects-name">Bedroom Interior Pot Work</p>
@@ -139,7 +159,7 @@
         </div>
         <button type="button" class="recentprojects-button">&#10095;</button>
         </li>
-        <li class="recentprojects-item">
+        <li class="recentprojects-item" data-aos="fade-down-right">
         <img src="./images/lightambiencesepiadesign.webp" alt="ligh tambience sepia design" class="recentprojects-image">
         <div class="recentprojects-tab">
         <p class="recentprojects-names">Light Ambience Sepia Design</p>
@@ -153,19 +173,19 @@
 <section class="results">
 <div class="container results-box">
 <ul class="results-list">
-    <li class="results-item">
+    <li class="results-item" data-aos="flip-right">
         <h2 class="results-title">12</h2>
         <p class="results-text">Years Of Experiance</p>
     </li>
-    <li class="results-item">
+    <li class="results-item" data-aos="flip-right">
         <h2 class="results-title">5K</h2>
         <p class="results-text">Success Project</p>
     </li>
-    <li class="results-item">
+    <li class="results-item" data-aos="flip-right">
         <h2 class="results-title">1K</h2>
         <p class="results-text">Active Project</p>
     </li>
-    <li class="results-item">
+    <li class="results-item" data-aos="flip-right">
         <h2 class="results-title">4K</h2>
         <p class="results-text">Happy Customers</p>
     </li>
@@ -177,7 +197,7 @@
     <h2 class="recent-title">Recent Blogs</h2>
         <p class="recent-subtitle">Get updates about our latest trends and techniques used in interior design project works.</p>
 <ul class="recent-list">
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/kitchendesign.png" alt="kitchen design" class="recent-image">
         <p class="recent-name">Kitchen Design</p>
         <h3 class="recent-bio">Residential Interior Designer In New York, USA</h3>
@@ -186,7 +206,7 @@
         <button type="button" class="recent-button">&#10095;</button>
     </div>
     </li>
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/livingroom.png" alt="living room design" class="recent-image">
         <p class="recent-name">Living Room</p>
         <h3 class="recent-bio">How To Choose The Best Wall Art & Decor House?</h3>
@@ -195,7 +215,7 @@
         <button type="button" class="recent-button">&#10095;</button>
         </div>
     </li>
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/minimalistdesign.png" alt="minimalist design" class="recent-image">
         <p class="recent-name">Minimalist Interior</p>
         <h3 class="recent-bio">Tips To Increase The Interior Value Of Your House</h3>
@@ -204,7 +224,7 @@
         <button type="button" class="recent-button">&#10095;</button>
         </div>
     </li>
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/coolkitchen.png" alt="kitchen design" class="recent-image">
         <p class="recent-name">Kitchen Design</p>
         <h3 class="recent-bio">Best Solution For Any Office & Business Interior</h3>
@@ -213,7 +233,7 @@
         <button type="button" class="recent-button">&#10095;</button>
         </div>
     </li>
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/livingpart.png" alt="living room design" class="recent-image">
         <p class="recent-name">Living Room</p>
         <h3 class="recent-bio">Get Solution For Building Construction Work</h3>
@@ -222,7 +242,7 @@
         <button type="button" class="recent-button">&#10095;</button>
         </div>
     </li>
-    <li class="recent-item">
+    <li class="recent-item" data-aos="zoom-in">
         <img src="./images/minimalistinterior.png" alt="minimalist design" class="recent-image">
         <p class="recent-name">Minimalist Interior</p>
         <h3 class="recent-bio">Attain The Best Finish For The Kitchen Cabinets</h3>
@@ -236,9 +256,10 @@
 </section>
 <section class="join">
     <div class="container">
-<h2 class="join-title">Wanna join the interno?</h2>
-<p class="join-text">Contact Us & Get a Free Consultation</p>
-<button type="button" class="join-button">Connect With us</button>
+<h2 class="join-title"  data-aos="fade-up"
+data-aos-anchor-placement="bottom-bottom">Wanna join the interno?</h2>
+<p class="join-text" data-aos="flip-left">Contact Us & Get a Free Consultation</p>
+<button type="button" class="join-button" data-aos="zoom-in-down">Connect With us</button>
     </div>
 </section>
     </main>
@@ -248,7 +269,7 @@
         <img src="./images/internologo.png" alt="" class="footer-logo">
         <p class="footer-text">We are the leading architect and interior design firm in the world.</p>
         
-        <ul class="footer-images">
+        <ul class="footer-images" data-aos="flip-up">
             <li class="footer-item"><img src="./images/facebooklogo.png" alt="facebook logo" class="footer-img"></li>
             <li class="footer-item"><img src="./images/twitterlogo.png" alt="twitter logo" class="footer-img"></li>
             <li class="footer-item"><img src="./images/inlogo.png" alt="in logo" class="footer-img"></li>
@@ -256,7 +277,10 @@
         </ul>
         <div class="footer-lists">
         <ul class="footer-list">
-            <li class="footer-thing">
+            <li class="footer-thing" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
                 <h3 class="things-title">Pages</h3>
                 <p class="footer-name">Style Guide</p>
                 <p class="footer-name">Protected</p>
@@ -264,7 +288,10 @@
                 <p class="footer-name">Changelog</p>
                 <p class="footer-name">404</p>
             </li>
-            <li class="footer-things">
+            <li class="footer-things" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
                 <h3 class="things-title">Explore</h3>
                 <p class="footer-name">About Us</p>
                 <p class="footer-name">Recent Blog</p>
@@ -274,7 +301,10 @@
             </li>
         </ul>
         <ul class="footer-addres">
-         <li class="addres-item">
+         <li class="addres-item" data-aos="fade-left"
+         data-aos-anchor="#example-anchor"
+         data-aos-offset="500"
+         data-aos-duration="500">
             <h3 class="addres-title">Contact</h3>
             <p class="addres-text">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p>
             <a href="mailto:contact@interno.com" class="addres-info">contact@interno.com</a>
@@ -285,5 +315,9 @@
     </div>
         </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

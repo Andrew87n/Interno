@@ -56,6 +56,13 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.4px;
 }
 
+.header-link{
+    transition-property: color;
+    transition-duration: 1500ms;
+    transition-delay: 500ms;
+    transition-timing-function: cubic-bezier(.75,.5,.12,.63);
+}
+
 .header-link:hover{
     color: var(--active-color);
 }
